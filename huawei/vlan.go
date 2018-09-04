@@ -11,9 +11,9 @@ func ShowA() {
 	v1 := V01.Vlan{}
 	v2 := V02.Vlan{}
 	vb.ShowA()
-	v1.ShowA()
-	v2.ShowA()
 	vb.ShowB()
+	v1.ShowA()
 	v1.ShowB()
+	v2.ShowA()
 	v2.ShowB()
 }
